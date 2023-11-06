@@ -15,13 +15,13 @@ function total_a_pagar() {
 
     // Verifico si está ingresado al menos 1 ticket, sino que se detenga
     if ( (cantidadTickets.value == 0) || (isNaN(cantidadTickets.value)) ) {
-        alert("Por favor, ingrese correctamente la cantidad de tickets.");
+        alert("Por favor, ingrese correctamente la cantidad de tickets");
         return
     }
 
     // Verifico que haya seleccionado una categoría
     if (categoria.value == "") {
-        alert("Por favor, seleccione una categoría.");
+        alert("Por favor, seleccione una categoría");
         return
     }
 
