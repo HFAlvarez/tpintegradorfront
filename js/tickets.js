@@ -13,6 +13,18 @@ var categoria       = document.getElementById("categoriaSelect");
 // Cálculo total a pagar
 function total_a_pagar() {
 
+    // Verifico que haya ingresado nombre y apellido
+    if ( (categoría.value == "") {
+        alert("Por favor, ingrese su nombre y apellido");
+        return
+    }
+
+    // Verifico que haya ingresado su correo electónico
+    if ( (categoría.value == "") {
+        alert("Por favor, ingrese su dirección de email");
+        return
+    }
+
     // Verifico si está ingresado al menos 1 ticket, sino que se detenga
     if ( (cantidadTickets.value == 0) || (isNaN(cantidadTickets.value)) ) {
         alert("Por favor, ingrese correctamente la cantidad de tickets");
